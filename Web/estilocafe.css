@@ -85,3 +85,9 @@
   background-color: rgb(163, 81, 206);
 }
 
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
