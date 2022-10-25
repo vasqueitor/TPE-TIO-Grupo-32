@@ -87,6 +87,12 @@ table{
 .captcha {
   background-color: rgb(163, 81, 206);
 }
+.container_card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+}
 
 <<<<<<< HEAD
 .center-image {
@@ -114,5 +120,7 @@ h2{
   background-color: #fafafa;
   height: 85vh;
 }
+
 =======
 >>>>>>> parent of 357213e (Se centro imagen en productos y agregue href que faltaba)
+
