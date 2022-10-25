@@ -88,6 +88,7 @@ table{
   background-color: rgb(163, 81, 206);
 }
 
+<<<<<<< HEAD
 .center-image {
   display: flex;
   justify-content: center;
@@ -113,3 +114,5 @@ h2{
   background-color: #fafafa;
   height: 85vh;
 }
+=======
+>>>>>>> parent of 357213e (Se centro imagen en productos y agregue href que faltaba)
