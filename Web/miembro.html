@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sé miembro</title>
+    <title>Sucursales</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilocafe.css">
 </head>
 <body>
-    <ul class="navigation">
-        <li class="resaltar"><a class="link" href="Inic.html">Home</a></li> 
-        <li class="resaltar"><a class="link" href="Productos.html">Productos</a></li>
-        <li class="resaltar"><a class="link" href="Sucursales.html">Sucursales</a></li>
-        <li class="resaltar"><a class="link" href="Contacto.html">Contacto</a></li>
-        <li>Sé miembro</li>
-    </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="inicio.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active"  href="Productos.html">Productos<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="sucursales.html">Sucursales</a>
+                <a class="nav-item nav-link" href="Contacto.html">Contacto</a>
+                <a class="nav-item nav-link disabled" href="miembro.html">Miembros</a>
+            </div>
+            </div>
+        </nav>
+    </header>
     <div class="padre">
         <div class="cuerpo">
             <h1>¿Tenés ganas de formar parte del mejor equipo cafetero?</h1>
@@ -62,5 +72,8 @@
                     <div><input id="submit" type="hidden" value="Enviar Postulación"></div>
                 </form>
     </div>
+    <footer class="footer text-center">
+        <p>&copy;CoffeGarden</p>
+    </footer>
 </body>
 </html>
