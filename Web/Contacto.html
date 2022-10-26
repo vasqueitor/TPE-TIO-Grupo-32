@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="estilocafe.css">
+    <link rel="stylesheet" href=>
 </head>
 <body>
     <ul class="navigation">
@@ -16,25 +16,39 @@
         <li class="resaltar"><a class="link" href="Sé miembro.html">Sé miembro</a></li>
     </ul>
     
-    <div class="contacto">
-        <ul>
-            <li>
-                <h1>Contacto</h1>                        
-            </li>                
-            <li>
-                Telefono: 011 3456 5678
-            </li>
-            <li>
-                mail: lacafeteria@gmail.com
-            </li>
-            <li>
-                Instagram: lacafeteriaok
-            </li>
-            <li>
-                Meta: lacafeteria
-            </li>
-        
-        </ul>
-    </div>
+    <section>
+        <div>
+            <div>
+                <h2>Envianos tu mensaje</h2>
+            </div>
+            <div>
+                <form>
+                    <div>
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Nombre: "  required>
+                    </div>
+                    <div >
+                        <label>Apellido</label>
+                        <input type="text" placeholder="Apellido: "  required>
+                    </div>
+                    <div class="mb-2">
+                        <label>Correo</label>
+                        <input type="email" placeholder="Email(g): "  required>
+                    </div>
+                    <div class="mb-2">
+                        <input type="checkbox" required> Masculino
+                        <input type="checkbox" required> Femenino
+                    </div>
+                    <div class="mb-2">
+                        <label>Mensaje</label>
+                        <textarea type="email" placeholder="Escriba aqui su Mensaje: "  required></textarea>
+                    </div>
+                    <div >
+                        <button >Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
