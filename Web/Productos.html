@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="inicio.html">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,10 +25,10 @@
             </div>
         </nav>
     </header>
-
-            <div><img src="logo_cafe.jpg"></div>
-      <h1>Lista de Prtoductos</h1>
-            <table>
+    <main class="main">
+        <div><img src="logo_cafe.jpg"></div>
+        <h1>Lista de Prtoductos</h1>
+        <table>
             <thead>
                 <tr>
                     <th>Café</th>
@@ -62,21 +62,17 @@
                     <td>$200</td>
                     <td>$20</td>
                 </tr>
-             
-            
             </tbody>
         </table>
         <h2>¿Que producto nos estamos olvidando?</h2>
         <input type="text">
         <button>agregar</button>
-
-        <h3>cambiar mensaje
-            
-            
-        </h3>
+        <h3>cambiar mensaje</h3>
+    </main>
         
-        <footer class="footer text-center">
-            <p>&copy;CoffeGarden</p>
-        </footer>
-    </body>
+    <footer class="footer text-center">
+        <p>&copy;CoffeGarden</p>
+        <a class="back" href="#nav">Volver</a>
+    </footer>
+</body>
 </html>

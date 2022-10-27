@@ -129,3 +129,7 @@ footer{
   background: linear-gradient(27deg, #434343 50%, #000000 50%);
   height: 3rem;
 }
+
+.back:hover{
+  text-shadow: 2px 2px 2px blueviolet;
+}
