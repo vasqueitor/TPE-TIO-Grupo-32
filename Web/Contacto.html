@@ -4,51 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sucursales</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilocafe.css">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
 </head>
-<body>
-    <header>
-        <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="inicio.html">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active"  href="Productos.html">Productos<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="sucursales.html">Sucursales</a>
-                <a class="nav-item nav-link" href="Contacto.html">Contacto</a>
-                <a class="nav-item nav-link disabled" href="miembro.html">Miembros</a>
+<body class="bg-secondary">
+    <ul class="navigation">
+        <li class="resaltar"><a class="link" href="Inic.html">Home</a></li> 
+        <li class="resaltar"><a class="link" href="Productos.html">Productos</a></li>
+        <li class="resaltar"><a class="link" href="Sucursales.html">Sucursales</a></li>
+        <li class="resaltar"><a class="link" href="Contacto.html">Contacto</li>
+        <li class="resaltar"><a class="link" href="Sé miembro.html">Sé miembro</a></li>
+    </ul>
+    
+    <section class="d-flex justify-content-center">
+        <div class="card col-sm-6 p-3">
+            <div class="mb-3">
+                <h2>Envianos tu mensaje</h2>
             </div>
+            <div class="mb-2">
+                <form>
+                    <div class="mb-2">
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Nombre: " class="form-control"  required>
+                    </div>
+                    <div class="mb-2">
+                        <label>Apellido</label>
+                        <input type="text" placeholder="Apellido: " class="form-control"  required>
+                    </div>
+                    <div class="mb-2">
+                        <label>Correo</label>
+                        <input type="email" placeholder="Email(g): " class="form-control"  required>
+                    </div>
+                    <div class="mb-2">
+                        <input type="checkbox" required> Masculino
+                        <input type="checkbox" required> Femenino
+                    </div>
+                    <div class="mb-2">
+                        <label>Mensaje</label>
+                        <textarea type="email" placeholder="Escriba aqui su Mensaje: " class="form-control"  required></textarea>
+                    </div>
+                    <div class="mb-2">
+                        <button class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
             </div>
-        </nav>
-    </header>
-    <main class="main">
-        <div class="contacto">
-            <ul>
-                <li>
-                    <h1>Contacto</h1>                        
-                </li>                
-                <li>
-                    Telefono: 011 3456 5678
-                </li>
-                <li>
-                    mail: lacafeteria@gmail.com
-                </li>
-                <li>
-                    Instagram: lacafeteriaok
-                </li>
-                <li>
-                    Meta: lacafeteria
-                </li>
-            </ul>
         </div>
-    </main>
-    <footer class="footer text-center">
-        <p>&copy;CoffeGarden</p>
-        <a href="#nav">Volver</a>
-    </footer>
+    </section>
 </body>
 </html>
